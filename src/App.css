@@ -4,14 +4,20 @@
   box-sizing: border-box;
 }
 /* globals */
-body {
-  padding-top: 66px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.4;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/placeholder.jpg);
+.homepage-background {
+
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/casual.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
+}
+
+body{
+
+  line-height: 1.4;
+  height: 100vh;
+  background-color: white;
+
 }
 
 .navbar {
@@ -20,8 +26,8 @@ body {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
   z-index: 1;
+  background-color: gray;
 
 }
 .navbar ul{
@@ -38,7 +44,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .navbar li a:hover {
@@ -46,21 +52,50 @@ body {
 }
 
 .hero {
-  position: relative;
-  margin-left: 0;
-  margin-top:0;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  background-color: rgb(51, 51, 61, 0.7);
+  background-size: contain;
+  bottom: 100px;
+  text-align: center;
+  
 }
 .name {
+  position: relative;
   color: white;
   text-transform: uppercase;
   font-size: 70px;
   text-align: center;
-  margin-top: 275px;
+  
 }
 .description {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   
 }
+
+@media screen and (max-width: 900px) {
+  .hero{background-size: 200px auto;}
+}
+
+.profile-description{
+  position: absolute;
+  top: 20%;
+  left: 100px;
+  right: 60%;
+
+}
+
+.profile-photo {
+  position: absolute;
+  float: right;
+  top: 20%;
+  right: 25%;
+  width: 25%;
+  height: 75%; 
+  
+}
+
 
