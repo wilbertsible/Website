@@ -8,14 +8,11 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 
-import Navbar from "./components/Navbar";
-
 import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Navbar />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/About" component={About} />
