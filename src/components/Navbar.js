@@ -1,20 +1,37 @@
 import React, { Component } from 'react'
-
-import {Link} from "react-router-dom";
+import {FaAlignJustify} from 'react-icons/fa'
+import {Link} from 'react-router-dom';
 
 export default class Navbar extends Component {
+    state={
+        isOpen:false
+    }
+    handleToggle=()=>{
+        this.setState({isOpen:!this.state.isOpen})
+    }
     render() {
         return (
-            <div className ="navbar">
-                <ul>
-                    <li><Link to="/">WILBERT SIBLE</Link></li>
-                    <li><Link to="/">HOME</Link></li>
-                    <li><Link to="/About">ABOUT</Link></li>
-                    <li><Link to="/Resume">RESUME</Link></li>
-                    <li><Link to="/Blogs">BLOGS</Link></li>
-                    <li><Link to="/Contact">CONTACT</Link></li>
+            <>
+            <nav className ="navbar">
+                <div className="nav-header">
+                    <Link to="/" className="brand">Wilbert Sible</Link>
+                    <button type="button" className="nav-btn" onClick={this.handleToggle}>
+                        <FaAlignJustify className="nav-icon"/>
+                    </button>
+                </div>
+                <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
+                    <li>
+                        <Link to="/">Home</Link>
+                        <Link to="/About">About</Link>
+                        <Link to="/Blogs">Blogs</Link>
+                        <Link to="/Projects">Projects</Link>
+                        <Link to="/Blogs">Contact</Link>
+
+                    </li>
                 </ul>
-            </div>
+            </nav>
+
+            </>
         )
     }
 }
