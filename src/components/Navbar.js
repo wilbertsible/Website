@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaAlignJustify} from 'react-icons/fa'
+import {FaAlignJustify,FaLinkedin} from 'react-icons/fa'
 import {Link} from 'react-router-dom';
 
 export default class Navbar extends Component {
@@ -26,7 +26,6 @@ export default class Navbar extends Component {
                         <Link to="/Blogs">Blogs</Link>
                         <Link to="/Projects">Projects</Link>
                         <Link to="/Blogs">Contact</Link>
-
                     </li>
                 </ul>
             </nav>
