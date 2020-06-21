@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaAlignJustify,FaLinkedin} from 'react-icons/fa'
+import {FaAlignJustify} from 'react-icons/fa'
 import {Link} from 'react-router-dom';
 
 export default class Navbar extends Component {
@@ -21,11 +21,10 @@ export default class Navbar extends Component {
                 </div>
                 <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
                     <li>
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/blogs">Blogs</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/blogs">Contact</Link>
+                        <Link to="/About">About</Link>
+                        <Link to="/Blogs">Blogs</Link>
+                        <Link to="/Projects">Projects</Link>
+                        <Link to="/Blogs">Contact</Link>
                     </li>
                 </ul>
             </nav>

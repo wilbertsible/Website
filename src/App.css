@@ -204,11 +204,11 @@ display:none;
   padding: 15px 35px;
   font-size: 24px;
   border: 1px solid #2d6898;
-  background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-  background-image: -o-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-  background-image: -ms-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+  background-image: linear-gradient(to top, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+  background-image: -o-linear-gradient(to top, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+  background-image: -moz-linear-gradient(to top, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+  background-image: -webkit-linear-gradient(to top, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
+  background-image: -ms-linear-gradient(to top, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
 
   background-image: -webkit-gradient(
       linear,
@@ -225,11 +225,11 @@ display:none;
 box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
 }
 .button:hover {
-  background-image: linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
-  background-image: -o-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
-  background-image: -moz-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
-  background-image: -webkit-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
-  background-image: -ms-linear-gradient(bottom, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+  background-image: linear-gradient(to top, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+  background-image: -o-linear-gradient(to top, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+  background-image: -moz-linear-gradient(to top, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+  background-image: -webkit-linear-gradient(to top, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
+  background-image: -ms-linear-gradient(to top, rgb(79,142,191) 0%, rgb(102,166,214) 100%);
 
   background-image: -webkit-gradient(
       linear,

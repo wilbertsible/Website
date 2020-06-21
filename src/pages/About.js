@@ -41,7 +41,7 @@ export const About = () => {
                 In his spare time, Wilbert plays Ultimate Frisbee, goes to trivia nights, and plays board games with friends and family. 
                 He enjoys going out with friends to just get drinks and listen to everybody’s day-to-day adventures.  
             </p>
-            <Link to="/about/resume" className="button">View Resume</Link>
+            <Link to="/About/Resume" className="button">View Resume</Link>
         </div>
         </>
     )
