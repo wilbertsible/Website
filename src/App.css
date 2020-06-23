@@ -27,6 +27,11 @@
   src: url(./fonts/Spinnaker/Spinnaker-Regular.ttf);
 }
 
+@font-face{
+  font-family: "Autobus";
+  src: url(./fonts/Autobus/Autobusbold-1ynL.ttf);
+}
+
 .homepage-background {
   position:fixed;
   top: 0;
@@ -39,7 +44,7 @@
 }
 
 body{
-  padding-top: 100px;
+  padding-top: 5rem;
   line-height: 1.5;
   height: 100vh;
   background-color:gainsboro;
@@ -53,7 +58,7 @@ body{
   left: 0;
   width: 100%;
   padding: 1rem 2rem;
-  z-index: 1;
+  z-index: 3;
   background-color: rgb(51, 51, 61, 0.7);
 }
 .nav-header {
@@ -98,7 +103,7 @@ body{
   text-decoration:underline;
 }
 .show-nav {
-    height: 300px;
+    height: 250px;
 }
 
 @media screen and (min-width: 800px) {
@@ -121,7 +126,7 @@ body{
     margin: 0 1rem;
     padding: 0.5rem 0;
     display:inline-block;
-    font-size:large;
+    font-size:21px;
   }
 }
 /*****END NAVBAR*****/
@@ -133,7 +138,7 @@ body{
   right: 10%;
   background-color: rgb(51, 51, 61, 0.7);
   background-size: contain;
-  bottom: 100px;
+  bottom: 200px;
   text-align: center;
   z-index:1;
 }
@@ -167,8 +172,48 @@ display:none;
 }
 /*****END BANNER*****/
 
-.profile-photo {
+/*****SOCIAL MEDIA*****/
+.social-media {
+  position: fixed;
+  background-color: rgb(51, 51, 61, 0.7);
+  background-size: contain;
+  height: 194px;
+  left: 20px;
+  bottom: 20px;
+  text-align: center;
+  z-index:2;
+}
 
+.social-icon {
+  font-size: 3rem;
+  color: white;
+  display:block;
+}
+
+@media screen and (min-width: 800px) {
+  .social-media{
+    position: absolute;
+    left:35%;
+    right:35%;
+    background-color: rgb(51, 51, 61, 0.7);
+    background-size: contain;
+    bottom: 20px;
+    height: 50px;
+    text-align: center;
+    z-index:1;
+  }
+  .social-icon {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Montserrat-Thin";
+    display:inline-block;
+  }
+}
+/*****END SOCIAL MEDIA*****/
+
+
+
+.profile-photo {
   display:block;
   margin-bottom: 10%;
   max-width:100%;
@@ -178,8 +223,7 @@ display:none;
 
 .profile-body{
   position:absolute;
-  margin-left:5%;
-  margin-right:5%;
+  margin:1rem 5% 5rem 5%;
   font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (min-width: 800px) {  
@@ -189,6 +233,7 @@ display:none;
   }
   .profile-body{
     font-size:20px;
+    margin:3rem 5% 2rem 5%;
   }
 }
 
@@ -201,6 +246,7 @@ display:none;
   font-weight: bold;
   background-color: #538fbe;
   margin-top: 20px;
+  margin-bottom: 70px;
   padding: 15px 35px;
   font-size: 24px;
   border: 1px solid #2d6898;
@@ -245,4 +291,24 @@ box-shadow: 0px 6px 0px #2b638f, 0px 3px 15px rgba(0,0,0,.4);
   padding-right:5%;
   padding-bottom:10%;
   font-family:"Calibri (Body)";
+}
+
+/*****UNDER CONSTRUCTION PAGE*****/
+.construction-background {
+  position:fixed;
+  width: 100%;
+  background-image: url(./images/GrayBackground.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: 75% 50%;
+}
+.construction-banner{
+  bottom: 500px;
+  left:25%;
+  right: 25%;
+  font-family:"Yellowtail";
+}
+.construction-name{
+  font-family:"Autobus";
+  font-size:100px;
 }
