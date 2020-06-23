@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaLinkedin, FaTwitterSquare, FaFacebookSquare, FaGithubSquare, FaInstagramSquare} from 'react-icons/fa'
+import {FaLinkedin, FaFacebookSquare, FaGithubSquare, FaInstagramSquare} from 'react-icons/fa'
 
 export default class SocialMedia extends Component {
     render() {
