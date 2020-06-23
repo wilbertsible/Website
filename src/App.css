@@ -70,6 +70,7 @@ body{
   font-size:xx-large;
   font-family: "Montserrat-Bold";
   text-decoration:none;
+  float:left;
 
 }
 .nav-btn {
@@ -106,7 +107,7 @@ body{
     height: 250px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px)  and (min-height:500px) {
   .navbar{
     display:inline;
   }
@@ -152,7 +153,7 @@ display:none;
   
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (min-height:500px) {
   .name {
     position: relative;
     color: white;
@@ -177,14 +178,22 @@ display:none;
   position: fixed;
   background-color: rgb(51, 51, 61, 0.7);
   background-size: contain;
-  height: 194px;
-  left: 20px;
+  height: 140px;
+  left: 40px;
   bottom: 20px;
   text-align: center;
   z-index:2;
 }
 
+
 .social-icon {
+  font-size: 3rem;
+  padding: 5px;
+  color: white;
+  display:block;
+}
+
+.social-icon:hover {
   font-size: 3rem;
   color: white;
   display:block;
@@ -192,25 +201,21 @@ display:none;
 
 @media screen and (min-width: 800px) {
   .social-media{
-    position: absolute;
-    left:35%;
-    right:35%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding:20px;
+    width: 100%;
+    height:80px;
+    z-index: 3;
     background-color: rgb(51, 51, 61, 0.7);
-    background-size: contain;
-    bottom: 20px;
-    height: 50px;
-    text-align: center;
-    z-index:1;
   }
   .social-icon {
     font-size: 3rem;
-    text-align: center;
-    font-family: "Montserrat-Thin";
     display:inline-block;
   }
 }
 /*****END SOCIAL MEDIA*****/
-
 
 
 .profile-photo {
@@ -223,7 +228,7 @@ display:none;
 
 .profile-body{
   position:absolute;
-  margin:1rem 5% 5rem 5%;
+  margin:1rem 7% 5rem 7%;
   font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (min-width: 800px) {  

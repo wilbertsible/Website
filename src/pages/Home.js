@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
-import SocialMedia from "../components/SocialMedia";
+import Footer from "../components/Footer";
 
 
 
@@ -12,7 +12,7 @@ export const Home = () => {
         <Banner />
         <div className="homepage-background">
         </div>
-        <SocialMedia />
+        <Footer />
 
         </>
     )
