@@ -193,11 +193,6 @@ display:none;
   display:block;
 }
 
-.social-icon:hover {
-  font-size: 3rem;
-  color: white;
-  display:block;
-}
 
 @media screen and (min-width: 800px) {
   .social-media{
