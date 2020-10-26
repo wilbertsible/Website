@@ -8,7 +8,7 @@ import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";*/
 import Error from "./pages/Error";
-import UnderConstruction from "./pages/UnderConstruction";
+//import UnderConstruction from "./pages/UnderConstruction";
 
 import { Route, Switch } from "react-router-dom";
 
