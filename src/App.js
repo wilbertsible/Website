@@ -19,9 +19,9 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/About" component={About} />
       <Route exact path="/About/Resume" component={Resume} />
-      <Route exact path="/Blogs" component={UnderConstruction} />
+      {/* <Route exact path="/Blogs" component={UnderConstruction} />
       <Route exact path="/Projects" component={UnderConstruction} />
-      <Route exact path="/Contact" component={UnderConstruction} />
+      <Route exact path="/Contact" component={UnderConstruction} /> */}
       <Route component={Error} />
     </Switch>
     </>

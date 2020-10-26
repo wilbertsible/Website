@@ -6,20 +6,34 @@ export const Resume = () => {
             <Navbar/>
             <div className="resume">
                 <p>
-                    <strong><u>Skills</u></strong>
+                    <h1><strong><u>Skills</u></strong></h1>
                 </p>
                 <p>
-                    <strong>Proficient</strong>
-                    : Java, C++, SQL, Azure Data Factory, HTML5, CSS3
+                    <strong>Languages: </strong>
+                    Java, C++, Python, JavaScript, Lua, Scala, HTML5, CSS3
                 </p>
                 <p>
-                    <strong>Knowledgeable: </strong>
-                    JavaScript, Python, NodeJS, Scala, Kusto, Apache Spark, React, Azure IoT
-                    Hub, Azure IoT Edge, Azure Virtual Machine, AWS IoT, AWS Greengrass, AWS
-                    Lambda, AWS S3
+                    <strong>Databases: </strong>
+                    MongoDB, Kusto, SQL, NoSQL
                 </p>
                 <p>
-                    <strong><u>Professional Experience</u></strong>
+                    <strong>Framework:  </strong>
+                    React, Apache Spark, Apache Storm
+                </p>
+                <p>
+                    <strong>Cloud:  </strong>
+                    Azure IoT Hub, Azure IoT Edge, Azure VM, Azure Data Factory, AWS IoT, AWS Greengrass, AWS Lambda, AWS S3
+                </p>
+                <p>
+                    <strong>SDLC: </strong>
+                    Scrum, Kanban, Extreme Programming(XP), Waterfall, Large Scale Scrum (LeSS)
+                </p>
+                <p>
+                    <strong>Others: </strong>
+                    Scikit-learn, Github
+                </p>
+                <p>
+                    <h1><strong><u>Professional Experience</u></strong></h1>
                 </p>
                 <p>
                     <strong>Tutor </strong>
@@ -29,13 +43,12 @@ export const Resume = () => {
                     Bothell, WA<em> October 2019 – Present</em>
                 </p>
                 <p>
-                    • Tutored college students about the concepts learned in Computer Science
-                    courses at the University of Washington Bothell by applying the Socratic
-                    method.<strong><u></u></strong>
+                    • Tutored college students about the concepts learned in Computer Science and demonstrating study and 
+                    programming techniques which help improve their software development skills.<strong><u></u></strong>
                 </p>
                 <p>
-                    • Assisted the students in debugging their code by working with them and
-                    pointing them in the right direction.<strong><u></u></strong>
+                    • Assisted the students in debugging their code by working with them and pointing them in the right direction, 
+                    ensuring that they leave the session with a working program.<strong><u></u></strong>
                 </p>
                 <p>
                     <strong>Tutor </strong>
@@ -45,13 +58,17 @@ export const Resume = () => {
                     Kirkland, WA<em> October 2019 – Present</em>
                 </p>
                 <p>
-                    • Tutored children from ages 6 to 15 about Computer Science concepts and
-                    Game Development using Scratch, Bitsbox, Microbit, and CodeCombat, while
-                continuously motivating them to explore creative ideas for their games.    <strong><u></u></strong>
+                •	Tutored children from ages 6 to 15 about Computer Science concepts and Game Development using Scratch, 
+                Bitsbox, Microbit, CodeCombat, Roblox, Minecraft, Python pygame and other fun games, and continuously 
+                motivating them to explore creative ideas for their games. <strong><u></u></strong>
                 </p>
                 <p>
-                    • Updated the parents about their kid’s progression in the curriculum and
-                showed them their child’s projects on a consistent basis.    <strong><u></u></strong>
+                •	Assisted the children by debugging their code, explaining to them the concepts applied in each project, 
+                and allowing them to demonstrate what they’ve learned in the next levels of the game.<strong><u></u></strong>
+                </p>
+                <p>
+                •	Updated the parents about their kid’s progression in the curriculum 
+                and showed them their child’s projects on a consistent basis.    <strong><u></u></strong>
                 </p>
                 <p>
                     <strong>Apprentice Software Developer</strong>
@@ -80,9 +97,9 @@ export const Resume = () => {
                     (ICMs) for Azure’s Usage database.
                 </p>
                 <p>
-                    • Created a new Azure Usage Big Data environment by creating a new storage,
-                    HDInsight cluster, and Data Factory pipelines to fix the old environment’s
-                    storage problem.
+                •	Fixed a three-month problem with the Azure Usage Big Data environment by investigating the root cause, 
+                understanding the technologies involved, and eventually solving the problem by creating a new storage, 
+                HDInsight, and Data Factory pipelines in a span of 1 month.
                 </p>
                 <p>
                     <strong>Junior Data Analyst</strong>
@@ -139,22 +156,7 @@ export const Resume = () => {
                     EPA standards.
                 </p>
                 <p>
-                    <strong><u>Hackathons</u></strong>
-                </p>
-                <p>
-                    <strong>AngelHack Seattle Hackathon </strong>
-                    <em>July 2018</em>
-                </p>
-                <p>
-                    <strong>Capital One DevExchange Hackathon </strong>
-                    <em>Mar 2018</em>
-                </p>
-                <p>
-                    <strong>UWB Hacks the Internet </strong>
-                    <em>Mar 2018</em>
-                </p>
-                <p>
-                    <strong><u>Education</u></strong>
+                    <h1><strong><u>Education</u></strong></h1>
                 </p>
                 <p>
                     <strong>
